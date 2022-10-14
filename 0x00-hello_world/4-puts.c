@@ -2,7 +2,13 @@
 
 /**
 * Main - Entry Point
+
 *
+
+* puts -print declared char string to std output
+
+*
+
 *Return: Always 0 (Success)
 
 */
