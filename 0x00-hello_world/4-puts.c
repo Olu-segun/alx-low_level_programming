@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - Entry Point
+ * main - Entry Point
  *
  * puts -print declared char string to std output
  *
