@@ -8,7 +8,7 @@ int main(void)
 {
 	char alp;
 
-	for alp(alp = 'a'; apl = <= 'z'; alp++)
+	for alp(alp = 'a'; alp <= 'z'; alp++)
 	{
 		if (alp != 'e' && alp != 'z')
 			putchar(alp);
