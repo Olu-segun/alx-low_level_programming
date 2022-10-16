@@ -10,7 +10,7 @@ int main(void)
 
 		while (num <= '9')
 		{
-			putchar("%d", num);
+			putchar(num);
 			++num;
 		}
 
