@@ -15,7 +15,7 @@ int main(void)
 	for (num = 0; num < 10; num++)
 		putchar((num % 10) + '0');
 
-	for (alp = 'a'; alp < 'f'; alp++)
+	for (alp = 'a'; alp <= 'f'; alp++)
 		putchar(alp);
 
 	putchar('\n');
