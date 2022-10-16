@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	int num = '0';
+	int i = '0';
 
-		while (num <= '9')
+		while (i <= '9')
 		{
-			printf(num);
-			++num;
+			printf(i);
+			++i;
 		}
 
-		prinf('\n');
+		printf('\n');
 		return (0);
 }
