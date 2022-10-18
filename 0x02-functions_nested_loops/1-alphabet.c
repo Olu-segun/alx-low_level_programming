@@ -12,7 +12,7 @@ void print_alphabet(void)
 	char alphabet = 'a';
 		while (alphabet <= 'z')
 		{
-			-putchar(alphabet);
+			_putchar(alphabet);
 			++alphabet;
 		}
 	_putchar('\n');
