@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha: Entry point.
+ * _isalpha.c : Entry Point.
  *
  * Desc; A function that checks for alphabetic character.
  *
