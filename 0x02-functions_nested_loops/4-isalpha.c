@@ -9,11 +9,11 @@
 
 int _isalpha(int c)
 {
-	int c;
+	int x;
 
-	for ((c = 'a', c <= 'z', c++) || (c = 'A', c <= 'Z', c++))
+	for ((x = 'a'; x <= 'z'; x++) || (x = 'A'; x <= 'Z'; x++))
 
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if (c == m)
 		return (1);
 	else
 		return (0);
