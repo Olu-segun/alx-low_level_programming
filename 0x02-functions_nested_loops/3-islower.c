@@ -9,8 +9,6 @@
 
 int _islower(int c)
 {
-	int c = 97;
-
 	for (c = 97; c <= 122; c++)
 
 		if (c >= 97 && c <= 122)
