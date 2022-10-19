@@ -11,8 +11,8 @@ int _isalpha(int c)
 {
 	int x;
 
-	for ((x = 'a'; x <= 'z'; x++) ||
-	    (x = 'A'; x <= 'Z'; x++))
+	for ((x = 'a'); x <= 'z'; x++) ||
+	    ((x = 'A'); x <= 'Z'; x++);
 
 	if (c == x)
 		return (1);
