@@ -4,7 +4,7 @@
  *
  * @size - prints size
  *
- * Return: alwaya 0
+ * Return: always (0)
  */
 
 void print_triangle(int size)
@@ -27,5 +27,7 @@ void print_triangle(int size)
 			_putchar('\n');
 		}
 	}
+
+	_putchar('\n');
 }
 
