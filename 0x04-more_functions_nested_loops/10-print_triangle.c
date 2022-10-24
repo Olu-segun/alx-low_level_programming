@@ -3,8 +3,6 @@
  * print_triangle - A  function that prints a triangle, followed by a new line.
  *
  * @size - prints size
- *
- * Return: always (0)
  */
 
 void print_triangle(int size)
@@ -18,16 +16,17 @@ void print_triangle(int size)
 			for (index = size - hash; index > 0; index--)
 				_putchar(' ');
 
-			for (index = 0; index < hash, index++)
+			for (index = 0; index < hash; index++)
 				_putchar('#');
 
 			if (hash == size)
 				continue;
 
 			_putchar('\n');
-		}
-	}
 
+		}
+
+	}
 	_putchar('\n');
 }
 
