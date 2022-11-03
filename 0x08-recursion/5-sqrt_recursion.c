@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 int find_sqrt(int n, int i);
 
 /**
@@ -9,6 +10,17 @@ int find_sqrt(int n, int i);
  */
 
 int _sqrt_recursion(int n)
+{
+	return (find_sqrt(n, 1));
+
+}
+
+/**
+ * find_sqrt - recursive square root
+ * @n: number to find the square root of
+ * @i: number to be tested
+ * Return: a number
+ */
 {
 	int square = i * i;
 
