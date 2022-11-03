@@ -21,6 +21,8 @@ int _sqrt_recursion(int n)
  * @i: number to be tested
  * Return: a number
  */
+
+int find_sqrt(int n, int i)
 {
 	int square = i * i;
 
